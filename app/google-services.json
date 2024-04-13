@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1013918046198",
+    "firebase_url": "https://fooddel-95e50-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "fooddel-95e50",
+    "storage_bucket": "fooddel-95e50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013918046198:android:e1a44de454f4c4b83fd9d7",
+        "android_client_info": {
+          "package_name": "com.example.fooddel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvwOe5_lJ-Li-IYs22Hff1hTC_oTAAgmM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

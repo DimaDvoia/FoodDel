@@ -3,4 +3,13 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="base">#F1A91D</color>
+    <color name="purple_200">#C30F4D</color>
+    <color name="purple_500">#EA6F48</color>
+    <color name="purple_700">#87EC5B</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="back">#EDB599</color>
+    <color name="gray">#2E2D2D</color>
+    <color name="grayy">#4A4848</color>
+    <color name="base2">#A46D02</color>
 </resources>

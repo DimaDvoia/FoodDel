@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.fooddel.ui.ui.home.fragment_home"
+        android:label="@string/Home"
+        tools:layout="@layout/activity_fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_daili_meal"
+        android:name="com.example.fooddel.ui.ui.gallery.daily_meal_fragment"
+        android:label="@string/daily_meal"
+        tools:layout="@layout/activity_daily_meal_fragment" />
+
+    <fragment
+        android:id="@+id/nav_favourite"
+        android:name="com.example.fooddel.ui.ui.slideshow.favourite_fragment"
+        android:label="@string/favourite"
+        tools:layout="@layout/activity_favourite_fragment" />
+    <fragment
+        android:id="@+id/nav_my_cart"
+        android:name="com.example.fooddel.ui.ui.fragment_my_cart"
+        android:label="@string/my_cart"
+        tools:layout="@layout/activity_fragment_my_cart" />
+
+</navigation>

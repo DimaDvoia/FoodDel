@@ -1,3 +1,42 @@
 <resources>
     <string name="app_name">FoodDel</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="my_delivery">My delivery</string>
+    <string name="registr">Регистрация</string>
+    <string name="name">Имя</string>
+    <string name="email">Email</string>
+    <string name="Number">Телефон</string>
+    <string name="Password">Пароль</string>
+    <string name="sign_in">Войти</string>
+    <string name="autoreg">Авторизация</string>
+    <string name="Home">Главная</string>
+    <string name="favourite">Избранное</string>
+    <string name="daily_meal">Daily meal</string>
+    <string name="my_cart">Корзина</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="log_out">Выйти</string>
+    <string name="search">Поиск</string>
+    <string name="hello">Здравствуйте,Дима</string>
+    <string name="_10_00_23_00">10:00-23:00</string>
+    <string name="product_name">Product name</string>
+    <string name="_5_0">5.0</string>
+    <string name="choose">Выберите категорию</string>
+    <string name="rest">Рестораны</string>
+
+    <string name="price">Минимальная стоисоть - 499р</string>
+    <string name="dinner">Ужин</string>
+    <string name="description">Описание описание</string>
+    <string name="discount">Скидка</string>
+    <string name="add_to_cart">Добавить в корзину</string>
 </resources>

@@ -13,6 +13,24 @@
         android:theme="@style/Theme.FoodDel"
         tools:targetApi="31">
         <activity
+            android:name=".kfc_page"
+            android:exported="false" />
+        <activity
+            android:name=".restaurants"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ui.fragment_my_cart"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ui.slideshow.favourite_fragment"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ui.home.fragment_home"
+            android:exported="false" />
+        <activity
+            android:name=".ui.ui.gallery.daily_meal_fragment"
+            android:exported="false" />
+        <activity
             android:name=".register"
             android:exported="false" />
         <activity
@@ -27,6 +45,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

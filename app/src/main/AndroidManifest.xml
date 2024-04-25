@@ -13,10 +13,19 @@
         android:theme="@style/Theme.FoodDel"
         tools:targetApi="31">
         <activity
-            android:name=".kfc_page"
+            android:name=".Pages.detailed_daily_meal"
             android:exported="false" />
         <activity
-            android:name=".restaurants"
+            android:name=".Pages.OrderPage"
+            android:exported="false" />
+        <activity
+            android:name=".Pages.tovarPage"
+            android:exported="false" />
+        <activity
+            android:name=".Pages.kfc_page"
+            android:exported="false" />
+        <activity
+            android:name=".Pages.restaurantsPage"
             android:exported="false" />
         <activity
             android:name=".ui.ui.fragment_my_cart"
@@ -28,7 +37,7 @@
             android:name=".ui.ui.home.fragment_home"
             android:exported="false" />
         <activity
-            android:name=".ui.ui.gallery.daily_meal_fragment"
+            android:name=".ui.ui.dailymeal.daily_meal_fragment"
             android:exported="false" />
         <activity
             android:name=".register"

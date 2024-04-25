@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/backgracolor"
+    tools:context=".Pages.tovarPage">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/base">
+
+        <ImageView
+            android:id="@+id/ver2_img"
+            android:layout_width="430dp"
+            android:layout_height="262dp"
+            android:background="@color/base2"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/TovarIMG"
+            android:layout_width="275dp"
+            android:layout_height="236dp"
+            android:layout_marginTop="4dp"
+            android:transitionName="courseImage"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/burg1" />
+
+        <TextView
+            android:id="@+id/NameBURG"
+            android:layout_width="163dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="196dp"
+            android:text="Сандерс"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.62"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/descripburg1"
+            android:layout_width="389dp"
+            android:layout_height="177dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="276dp"
+            android:text="@string/descrip"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="238dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="96dp"
+            android:layout_marginTop="496dp"
+            android:background="@drawable/box_button"
+            android:onClick="addToCart"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/btntexty"
+            android:layout_width="209dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="116dp"
+            android:layout_marginTop="512dp"
+            android:text="Добавить в корзину"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/price1"
+            android:layout_width="74dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="176dp"
+            android:layout_marginTop="412dp"
+            android:text="@string/price"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

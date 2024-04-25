@@ -21,8 +21,9 @@
     <string name="autoreg">Авторизация</string>
     <string name="Home">Главная</string>
     <string name="favourite">Избранное</string>
-    <string name="daily_meal">Daily meal</string>
+    <string name="daily_meal">Ежедневное питание</string>
     <string name="my_cart">Корзина</string>
+
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="log_out">Выйти</string>
@@ -33,8 +34,10 @@
     <string name="_5_0">5.0</string>
     <string name="choose">Выберите категорию</string>
     <string name="rest">Рестораны</string>
+    <string name="nameburg">Сандерс</string>
+    <string name="descrip">Булочка бриошь Филе куриное оригинальное Соус бургер классический Сыр плавленый ломтевой Салат айсберг Огурцы маринованные</string>
 
-    <string name="price">Минимальная стоисоть - 499р</string>
+    <string name="price">159р</string>
     <string name="dinner">Ужин</string>
     <string name="description">Описание описание</string>
     <string name="discount">Скидка</string>

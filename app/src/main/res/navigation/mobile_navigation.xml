@@ -13,7 +13,7 @@
 
     <fragment
         android:id="@+id/nav_daili_meal"
-        android:name="com.example.fooddel.ui.ui.gallery.daily_meal_fragment"
+        android:name="com.example.fooddel.ui.ui.dailymeal.daily_meal_fragment"
         android:label="@string/daily_meal"
         tools:layout="@layout/activity_daily_meal_fragment" />
 
@@ -22,10 +22,5 @@
         android:name="com.example.fooddel.ui.ui.slideshow.favourite_fragment"
         android:label="@string/favourite"
         tools:layout="@layout/activity_favourite_fragment" />
-    <fragment
-        android:id="@+id/nav_my_cart"
-        android:name="com.example.fooddel.ui.ui.fragment_my_cart"
-        android:label="@string/my_cart"
-        tools:layout="@layout/activity_fragment_my_cart" />
 
 </navigation>

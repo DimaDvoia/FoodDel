@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/base"
-    tools:context=".restaurants">
+    tools:context=".Pages.restaurantsPage">
 
     <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="410dp"
@@ -58,6 +58,8 @@
             android:background="@android:drawable/editbox_background"
             app:layout_constraintBottom_toTopOf="@+id/home_ver_rec"
             app:layout_constraintTop_toBottomOf="@+id/editText2"/>
+
+
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/home_ver_rec"
